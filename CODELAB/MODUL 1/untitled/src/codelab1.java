@@ -7,7 +7,7 @@ import java.time.LocalDate;
 class main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+        {
         // Meminta input dari pengguna
         System.out.print("Masukkan nama: ");
         String nama = scanner.nextLine();
@@ -42,5 +42,5 @@ class main {
         scanner.close();
     }
 }
-{
+
 }
